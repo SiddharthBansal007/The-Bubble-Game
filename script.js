@@ -1,4 +1,4 @@
-var timer = 6;
+var timer = 60;
 var score = 0;
 var hitrn = 0;
 
@@ -50,7 +50,7 @@ function makeBubble() {
 
 // function to start the 60-secs timer
 function runTimer(){
-    timer = 6;
+    timer = 60;
     var timer1 = setInterval(function(){
         if(timer > 0){
             timer--;
